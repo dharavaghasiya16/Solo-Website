@@ -1,0 +1,570 @@
+/*==========================================
+|  |   |   |  Bootstrap 3 Media Queries 
+============================================ */
+/* Large Devices (deskotop & laptop) */
+@media (min-width : 1200px) and (max-width : 1299px) {
+    /* Navigation */
+    /* .nav-wrapper li a {
+       padding: 0 20px; 
+    } */
+}
+
+
+
+/* Mediam Devices (Landscape Tablets & Mediam Desktop ) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+     /* Navigation */
+    /*.nav-wrapper li a {
+        padding: 0 20px; 
+     }*/
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+
+    /* Services 02 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+    #service-tab-1 p,
+    #service-tab-2 p,
+    #service-tab-3 p,
+    #service-tab-4 p {
+        line-height: 20px;
+    }
+}
+
+
+
+
+
+/* Small Devices (Potrait Tablets & Small Desktop ) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+     /* Navigation */
+    .nav-wrapper li a {
+        font-size: 11px;
+        margin: 10px;
+    }
+    .img-responsive {
+        width: 80px;
+    }
+    .nav {
+        padding: 0;
+    }
+
+     /* Home */
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    #home-text p {
+        font-size: 13px;
+    }
+    .btn-general {
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+     /* Team */
+    .team-member-info {
+        margin-top: -40px;
+    }
+    .team-member-info h6 {
+        font-size: 17px;
+    }
+    .social-list li {
+        font-size: 14px;
+    }
+
+     /* Statement */
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .icon i {
+        font-size: 30px;
+    }
+
+
+     /* Services */
+    .service h4 {
+        font-size: 20px;
+    }
+    #services-02 {
+        margin-bottom: 30px;
+    }
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #212227;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .r-tabs-accordion-title .r-tabs-state-active a {
+        color: #f4ce13;
+        font-weight: 700;
+        border-bottom: 3px solid #f4ce13;
+        padding-bottom: 5px;
+        transition: border-color 300ms linear;
+    }
+
+
+     /* Portfolio */
+    .portfolio-item-details h3 {
+        font-size: 20px;
+    }
+    .portfolio-item-details p {
+        font-size: 13px;
+    }
+
+     /* Testimonila */
+    .author-name-des p {
+       top: 20px;
+    }
+    .testimonial .stars {
+        font-size: 12px;
+    }
+    .testimonial .quality {
+        font-size: 25px;
+    }
+
+     /* Pricing Table */
+    .pricing-table .price h2 {
+        font-size: 35px;
+        margin: 0 0 0 15px;
+    }
+    .month {
+        margin-bottom: 20px;
+    }
+
+
+     /* Blog */
+    .blog-post h4 {
+        font-size: 20px;
+    }
+    .blog-post {
+        margin-top: 20px;
+    }
+    .blog-post .post-meta p {
+        line-height: 14px;
+    }
+
+
+    /* Contact */
+    #offices {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices (Landscape phone & Potrait Tablets ) */
+@media (max-width : 767px) {
+    body.disabledScroll {
+        overflow: hidden;
+    }
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: #222;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu-list.active {
+        left: 0%;
+    }
+    .navbar .menu-list li {
+        margin-top: 30px;
+    }
+    .navbar .menu-list li a {
+        font-size: 23px;
+        color: #fff;
+    }
+    .navbar .menu-list li a:hover {
+        color: #f4c613;
+    }
+    .icons {
+        display: block;
+        left: 50px;
+    }
+    .icons.hide {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .nav, 
+    header.sticky {
+        padding: 0;
+    }
+    .nav-wrapper {
+        padding: 20px 0;
+    }
+    .nav-wrapper {
+        visibility: hidden;
+    }
+    #back-to-top {
+        visibility: hidden;
+    }
+    
+    /* Home */
+    #home-heading h1 {
+        font-size: 22px;
+    }
+    #home-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+    .btn-general {
+        padding: 8px 25px 6px 25px;
+        font-size: 10px;
+    }
+
+
+    /* About 01 */
+    .content-box-lg {
+        padding: 90px 0;
+    }
+    .vertical-heading {
+        text-align: center;
+    }
+    .vertical-heading h5 {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+        line-height: normal;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .about-left {
+        margin-bottom: 50px;
+    }
+    #about-right {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* about 02 */
+    .content-box-md {
+        padding: 80px 0;
+    }
+    .about-item {
+        padding: 55px 30px;
+        margin-bottom: 35px;
+    }
+    .about-item i {
+        font-size: 30px;
+    }
+    .about-item h3 {
+        font-size: 18px;
+    }
+
+
+    /* Team */
+    #team-left .vertical-heading {
+        min-height: 130px;
+    }
+    #team-left p {
+        text-align: center;
+    }
+    .img-responsive {
+        width: 100%;
+    }
+    .team-member-info {
+        font-size: 12px;
+    }
+    .skill h4 {
+        font-size: 18px;
+    }
+    .progress-bar span  {
+        font-size: 15px;
+    }
+
+
+    /* Statement */
+    #tech-statement h3 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+    /* Services 01 */
+    .horizontal-heading {
+        margin-bottom: 40px;
+    }
+    .horizontal-heading h2 {
+        font-size: 30px;
+    }
+    #services-01 img {
+        margin: 35px 0;
+    }
+    .service {
+        text-align: center;
+    }
+    .icon i {
+        font-size: 34px;
+        text-align: center;
+    }
+
+
+    /* service 02 */
+    #service-tab-1 {
+        text-align: center;
+    }
+    #services-tabs {
+        height: 160%;
+    }
+    #service-tab-1 img{
+        text-align: center;
+        display: flex;
+    }
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #212226;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-decoration: none;
+    }
+        
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #f4c613;
+        font-weight: 700;
+        border-bottom: 3px solid #f4c613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+    .r-tabs-accordion-title{
+        text-align: center;
+        margin-bottom: 10px;
+    } 
+    .tab-bg {
+        background-color: white;
+        text-align: center;
+        margin-left: 1px; 
+        width: 107%; 
+    }   
+    .services-tabs .tab-bg {
+        text-align: center;
+        padding: 40px 30px;
+    }
+    #service-tab-1 h2,
+    #service-tab-2 h2,
+    #service-tab-3 h2,
+    #service-tab-4 h2 {
+       font-size: 40px;
+    }
+    #service-tab-1 h3 ,
+    #service-tab-2 h3 ,
+    #service-tab-3 h3 ,
+    #service-tab-4 h3 {
+        font-size: 28px;
+    }
+
+    
+    /* Portfolio */ 
+    #portfolio-wrapper {
+        padding-bottom: 60px;
+    }
+
+    /* Testimonial */
+    .test h5 {
+        margin-top: -100px;
+    }
+    #testimonials {
+        padding-bottom: 15px;
+    }
+    #testimonial-slider {
+        top: 0;
+    }
+    #testimonials .vertical-heading {
+        padding: 0;
+    }
+    .testimonial h3 {
+        font-size: 20px;
+    }
+    .testimonial .stars {
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+    }
+    /* .author img {
+        width: 80px;
+    } /*
+
+
+    /* pricing */
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+    .pricing-table .price h2 {
+        font-size: 28px;
+        margin: 0 0 0 16px;
+    }
+
+    /* Stats */
+    .stats-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+    .stats-item i {
+        font-size: 30px;
+    }
+    .stats-item h3 {
+        font-size: 24px;
+    }
+
+
+    /* Blog */
+    #blog-left {
+        text-align: center;
+        margin-top: 30px;
+    }
+    #blog-btn {
+        margin-top : -20px;
+        margin-bottom: -50px;
+    } 
+    #blog-left  h2{
+        font-size: 29px;
+    }
+    .blog-post {
+        margin-bottom: 25px;
+    }
+
+
+    /* Contact */
+    #contact-left {
+        text-align: center;
+    }
+    .office {
+        margin-bottom: 40px;
+    }
+    ul.office-details li {
+        display: block;
+        margin-top: 25px;
+    }
+    ul.office-details li i {
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
+    }
+    ul.social-list {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+
+
+
+
+/* Extra Small Devices (Potrait phone & Smaller Devices ) */
+@media (max-width : 480px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+    .vertical-heading h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .vertical-heading h5 {
+        text-align: center;
+    }
+
+
+
+    /* Portfolio */ 
+    #portfolio-wrapper ul li {
+        padding-right: 14px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+
+    /* Testimonial */
+    .testimonial h3 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+    .testimonial .stars {
+        font-size: 15px;
+        margin-left: 300px;
+        margin-top: -25px;
+    }
+    .author-name-des p {
+        text-align: center;
+    }
+    #test-img {
+        width: 30%;
+    }
+    #testimonial-slider {
+        height: 100%;
+    }
+    .price p {
+        text-align: center;
+        bottom: 30px;
+    }
+    .price h2 {
+        line-height: 50px;
+    }
+}
+
+
+
+
+
+
+/* Extra Small Devices (Potrait Phones & Smaller Devices ) */
+@media (max-width : 320px) {
+    .testimonial h3 {
+        line-height: 70px;
+
+    }
+    .testimonial .stars {
+        font-size: 13px;
+    }
+
+}
